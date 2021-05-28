@@ -22,3 +22,4 @@ jobs:
             AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
             domain: inovak.me
             publish_dir: ./
+            redirect_to_index_on_404: true
